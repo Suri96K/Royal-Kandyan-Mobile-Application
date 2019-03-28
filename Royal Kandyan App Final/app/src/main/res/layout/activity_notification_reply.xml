@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323256"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="93dp"
+        android:layout_margin="10dp"
+        android:text="Reply"
+        android:textColor="@android:color/white"
+        android:textSize="55sp" />
+
+    <TextView
+        android:id="@+id/message_sender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Sender" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Message" />
+
+    <EditText
+        android:id="@+id/reply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:lines="5"
+        android:text="Reply" />
+
+    <Button
+        android:id="@+id/btn_send_reply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#64FFDA"
+        android:onClick="OpenNotificationReplyActivity"
+        android:text="Reply" />
+
+</LinearLayout>

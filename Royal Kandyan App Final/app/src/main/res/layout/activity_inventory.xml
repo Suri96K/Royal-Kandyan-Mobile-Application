@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323256"
+    tools:context=".InventoryActivity">
+
+    <LinearLayout
+        android:layout_width="367dp"
+        android:layout_height="368dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="100dp">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="189dp"
+            android:layout_height="67dp"
+            android:layout_marginBottom="8dp"
+            android:text="Inventory"
+            android:textColor="@android:color/white"
+            android:textSize="45sp" />
+
+        <EditText
+            android:id="@+id/edit_text_item_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#323256"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Item ID" />
+
+        <Button
+            android:id="@+id/btn_query_inventory"
+            android:layout_width="370dp"
+            android:layout_height="62dp"
+            android:background="#64FFDA"
+            android:text="Search" />
+
+        <TextView
+            android:id="@+id/txt_item_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Code : " />
+
+        <TextView
+            android:id="@+id/txt_item_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cost : " />
+
+        <TextView
+            android:id="@+id/txt_item_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category : " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description : " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UOMID : " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name : " />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity : " />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

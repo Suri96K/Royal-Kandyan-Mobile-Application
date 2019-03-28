@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pc.royalkandyan2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Support.Controller"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RestaurantActivity" />
+        <activity android:name=".HotelActivity" />
+        <activity
+            android:name=".ReceptionistActivity"
+            android:label="@string/title_activity_receptionist" />
+        <activity android:name=".AccountingActivity" />
+        <activity android:name=".HRActivity" />
+        <activity android:name=".InventoryActivity" />
+        <activity android:name=".POSActivity" />
+        <activity android:name=".HouseKeepingActivity" />
+        <activity android:name=".EmployeeActivity" />
+        <activity android:name=".LeaveRequestActivity" />
+        <activity android:name=".SendMessageActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".NotificationReplyActivity" />
+        <activity android:name=".Login2Activity" />
+        <activity android:name=".GuestActivty" />
+        <activity android:name=".FeedBackActivity" />
+        <activity android:name=".ShowFeedbackActivity" />
+        <activity android:name=".BookingsCheckActivity" />
+        <activity android:name=".LeaveReqCheckActiivity" />
+        <activity android:name=".NotificationsForAccounting" />
+        <activity android:name=".NotificationsForEmployees" />
+        <activity android:name=".NotificationsForHRM" />
+        <activity android:name=".NotificationsForHouseKeeping" />
+        <activity android:name=".InvenActivity" />
+        <activity android:name=".NotificationsForInventory" />
+        <activity android:name=".NotificationsForReceptionist" />
+        <activity android:name=".NotificationsForPos" />
+        <activity android:name=".GuestsInHotelActivity" />
+        <activity android:name=".RoomStatusActivity" />
+        <activity android:name=".LaundryStatusActivity" />
+        <activity android:name=".EditShiftActivity" />
+        <activity android:name=".LaundrycheckActivity" />
+        <activity android:name=".TableReservationActivity" />
+        <activity android:name=".DemoActivity" />
+        <activity android:name=".AboutDemoActivity" />
+        <activity android:name=".MessageDemoActivity"></activity>
+    </application>
+
+</manifest>

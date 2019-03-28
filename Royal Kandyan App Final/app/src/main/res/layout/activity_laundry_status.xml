@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#323256"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Laundry"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/EditText_name"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="10dp"
+        android:background="#009999"
+        android:hint="Customer name"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/EditText_roomno"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:background="#009999"
+        android:hint="Room No"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/EditText_noofitems"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_margin="10dp"
+        android:background="#009999"
+        android:hint="No of Items"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/EditText_Itemsdiscription"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_margin="10dp"
+        android:background="#009999"
+        android:hint="Item Description "
+        android:lines="15"
+        android:maxLength="200"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="fill_parent"
+        android:layout_height="63dp"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:background="#64FFDA"
+        android:text="Submit" />
+
+</LinearLayout>
